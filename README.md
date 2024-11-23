@@ -26,9 +26,18 @@
    ```bash
    pip install -r requirements.txt
    ```
-4. **Download the pre-trained currency detection model**:
-(model_1.h5) and place it in the model/ directory.
+4. **Set up your API key for Google’s Gemini model** :
+   To use Google's Gemini model, you will need to add your API key.
+      ```bash
+     GOOGLE_API_KEY=your_api_key_here
+      ```
 
+5. **Download the pre-trained currency detection model**:
+   (model_1.h5) and place it in the model/ directory.
+6. **Download the dataset**:
+   You can download the dataset used in this project from the following link:
+   **Dataset URL**:https://www.kaggle.com/datasets/belalsafy/egyptian-new-currency-2023
+   
 ## Usage 
 ## Running the SightPay System
 1. **Launch the application**:
