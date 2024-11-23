@@ -1,0 +1,9 @@
+tensorflow
+keras
+numpy
+opencv-python
+pyttsx3
+Pillow
+speechrecognition
+customtkinter
+google-generativeai 
