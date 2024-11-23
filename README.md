@@ -39,12 +39,14 @@ This will open a window showing the live video feed from your camera. The system
 
 2. **To process invoices**:
 
--Say "Capture the photo" to the system. This will capture an image of the invoice using the ---camera.
+-Say "Capture the photo" to the system, This command will capture an image of the invoice using the camera.
 -The app will upload the image to Gemini for processing and extract details such as total amounts, item lists, and descriptions. Say any of them to be processed.
+
 -If it is a currency image, the app will upload the image to the Currency Detection Model for detecting the label.
 -SightPay will tell you what you want to know.
 
-##Components
+## Components
+
 ### Currency Detection Model
  This model is trained using a EfficientNetV2L to classify Egyptian currency into different denominations.
 
